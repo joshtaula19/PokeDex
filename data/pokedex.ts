@@ -24,7 +24,7 @@ interface Pokemon {
         {code:'FA', name:'Feraligatr'},
         {code:'GR', name:'Greninja'},
 
-        // Add more Pokémon data here
+
       ]
     },
     Fire: {
