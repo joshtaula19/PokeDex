@@ -107,7 +107,7 @@ button {
 }
 
 button:hover {
-  transform: scale(1.1);
+  background-color: rgb(62, 136, 255);
 }
 
 #pika {
