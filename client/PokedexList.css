@@ -1,0 +1,138 @@
+/* ╔═══════════════════╗ */
+/* ║   Body Settings   ║ */
+/* ╚═══════════════════╝ */
+
+body {
+  background-color: white;
+  color: #0a1520;
+  font-family: 'Poppins', sans-serif;
+  /* I really hate this image but I can't find anything better :( */
+  background-image: url(https://w.wallha.com/ws/14/EuiyIW8k.png);
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* ╔═════════════════════╗ */
+/* ║   Header Settings   ║ */
+/* ╚═════════════════════╝ */
+
+/* The giant ugly hideous red header at the top of the page  */
+.listHeader {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 50px 50px;
+  background-color: rgb(222, 52, 43);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Styles the h3 text in the header */
+.listHeader h3 {
+  margin: 2rem 3rem;
+  font-family: font2;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+/* Home button :/ */
+.homeButton {
+  padding: 0.5rem 1rem;
+  margin: 0 4rem;
+  height: min-content;
+  background-color: rgb(0, 98, 255);
+  border: 3px solid rgb(14, 77, 180);
+  color: white;
+  font-size: 2rem;
+  border-radius: 30px;
+  font-family: font2;
+}
+
+/* ╔════════════════════╗ */
+/* ║   Cards Settings   ║ */
+/* ╚════════════════════╝ */
+
+/* Sets the grid layout for the cards */
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Styles for each of the pokemon cards */
+.pokemonCard {
+  background-color: white;
+  width: 15rem;
+  height: 20rem;
+  margin: 3rem 2rem;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow:
+    rgba(50, 50, 93, 0.532) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.379) 0px 8px 16px -8px;
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Animation when you hover over the card */
+.pokemonCard:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.pokemonImages {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* I was going to add a type button but it looked ugly so I removed it and now this is just here for no reason */
+.type {
+  height: min-content;
+  margin: 0 3rem;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: rgb(0, 98, 255);
+  border: 3px solid rgb(14, 77, 180);
+  color: white;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-family: font2;
+}
+
+/* ╔══════════════════╗ */
+/* ║   Font Imports   ║ */
+/* ╚══════════════════╝ */
+
+@font-face {
+  font-family: font1;
+  src: url(/fonts/starshines/Starshines.otf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(/fonts/cocogoose/Cocogoose-Pro-Bold-trial.ttf);
+}
+
+h2 {
+  font-family: font1;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 0 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: rgb(222, 52, 43);
+  background-color: rgb(0, 98, 255);
+  border: 3px solid rgb(14, 77, 180);
+  border-radius: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.621);
+}

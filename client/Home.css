@@ -1,0 +1,147 @@
+/* ╔═══════════════════╗ */
+/* ║   Body Settings   ║ */
+/* ╚═══════════════════╝ */
+
+body {
+  /* Comment the background picture below and see if it looks better with or without it I really cant decide :( */
+  background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/pokemon-eevee-sitting-in-field-anime-preview-desktop-wallpaper.jpg);
+  backdrop-filter: blur(30px);
+  margin: 0;
+  font-family: font1;
+}
+
+/* ╔═════════════════════╗ */
+/* ║   Importing Fonts   ║ */
+/* ╚═════════════════════╝ */
+
+@font-face {
+  font-family: font1;
+  src: url(/fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+/* ╔═══════════════════╗ */
+/* ║   Card Settings   ║ */
+/* ╚═══════════════════╝ */
+
+/* Entire Components container DONT TOUCH */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* The card */
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 80vh;
+  width: 60vw;
+  box-shadow:
+    rgba(255, 255, 255, 0.648) 0px 1px 1px 0px inset,
+    rgb(50, 50, 93) 0px 50px 100px -20px,
+    rgb(0, 0, 0) 0px 30px 60px -30px;
+  transition: transform 0.5s;
+}
+
+/* Makes the card big when you hover over it */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Text inside the card thingy */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 2rem 3rem;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* ╔═══════════════════╗ */
+/* ║   Font Settings   ║ */
+/* ╚═══════════════════╝ */
+
+h2 {
+  font-size: 2rem;
+  font-family: font1;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: font1;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+button {
+  width: fit-content;
+  padding: 1.3rem;
+  height: fit-content;
+  background-color: rgb(0, 98, 255);
+  color: white;
+  font-size: bolder;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  margin-left: -10px;
+  border: none;
+  font-family: font1;
+}
+
+#pika {
+  display: none;
+}
+
+.poki {
+  color: rgb(0, 98, 255);
+}
+
+.dex {
+  color: rgb(222, 52, 43);
+}
+
+/* ╔═══════════════════╗ */
+/* ║   Media Queries   ║ */
+/* ╚═══════════════════╝ */
+
+@media screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  .imageBox {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2,
+  button {
+    font-size: 0.5rem;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+  }
+}
