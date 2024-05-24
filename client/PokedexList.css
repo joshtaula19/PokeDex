@@ -6,12 +6,17 @@ body {
   background-color: white;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
-  /* I really hate this image but I can't find anything better :( */
-  background-image: url(https://w.wallha.com/ws/14/EuiyIW8k.png);
-  background-size: contain;
-  background-attachment: fixed;
   margin: 0;
   padding: 0;
+}
+
+.listMain {
+  width: 100vw;
+  height: 100%;
+  /* I really hate this image but I can't find anything better :( */
+  background-image: url(/background-images/EuiyIW8k.png);
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 /* ╔═════════════════════╗ */
@@ -122,7 +127,7 @@ body {
   src: url(/fonts/cocogoose/Cocogoose-Pro-Bold-trial.ttf);
 }
 
-h2 {
+.pokemonNames {
   font-family: font1;
   font-size: 1.5rem;
   font-weight: bolder;

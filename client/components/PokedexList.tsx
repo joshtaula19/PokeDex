@@ -10,7 +10,7 @@ const PokedexList = () => {
   // }
 
   return (
-    <div className=".listMain">
+    <div className="listMain">
       <div className="listHeader">
         <h3>Select Pokemon to view details!</h3>
         {/* This button should take you back to the home component */}
@@ -32,7 +32,7 @@ const PokedexList = () => {
                     alt="pokemon"
                   />
                 </div>
-                <h2>{pokemon.name}</h2>
+                <h2 className="pokemonNames">{pokemon.name}</h2>
               </Link>
             </div>
           )

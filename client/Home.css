@@ -3,19 +3,35 @@
 /* ╚═══════════════════╝ */
 
 body {
-  /* Comment the background picture below and see if it looks better with or without it I really cant decide :( */
-  background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/pokemon-eevee-sitting-in-field-anime-preview-desktop-wallpaper.jpg);
   backdrop-filter: blur(30px);
   margin: 0;
-  font-family: font1;
+  font-family: lemon;
 }
 
+.background {
+  /* Comment the background picture below and see if it looks better with or without it I really cant decide :( */
+  background-image: url(/background-images/pokemon-eevee-sitting-in-field-anime-preview-desktop-wallpaper.jpg);
+  background-size: fill;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(30px);
+  z-index: 1;
+}
 /* ╔═════════════════════╗ */
 /* ║   Importing Fonts   ║ */
 /* ╚═════════════════════╝ */
 
 @font-face {
-  font-family: font1;
+  font-family: lemon;
   src: url(/fonts/lemon_milk/LEMONMILK-Bold.otf);
 }
 
@@ -25,6 +41,8 @@ body {
 
 /* Entire Components container DONT TOUCH */
 .container {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,17 +96,18 @@ img {
 
 h2 {
   font-size: 2rem;
-  font-family: font1;
+  font-family: lemon;
 }
 
 h1 {
   font-size: 5rem;
-  font-family: font1;
+  font-family: lemon;
   margin: 0;
 }
 
 h3 {
   font-size: 1rem;
+  font-family: lemon;
 }
 
 button {
@@ -102,7 +121,7 @@ button {
   font-size: 1.3rem;
   margin-left: -10px;
   border: none;
-  font-family: font1;
+  font-family: lemon;
   transition: transform 0.5s ease-in-out;
 }
 
