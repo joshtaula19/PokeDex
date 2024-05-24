@@ -28,7 +28,7 @@ const PokedexList = () => {
                 <div className="pokemonCard">
                   <img
                     className="pokemonImages"
-                    src={pokemon.image}
+                    src={'/images/' + pokemon.name.toLowerCase() + '.jpg'}
                     alt="pokemon"
                   />
                 </div>
