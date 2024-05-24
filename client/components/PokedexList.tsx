@@ -24,7 +24,7 @@ const PokedexList = () => {
             <div key={pokemon.code}>
               {/* You can wrap the div: pokemonCard, in a router link so that the entire card is a link and when the user clicks on the card, it should take them to the PokemonData.tsx page of that pokemon they clicked */}
               {/* Something like we did for world wide routing:   <Link to={'/continent/' + name + '/' + country.code}> */}
-              <Link to={`/pokedex/${pokemon.code}`}>
+              <Link to={`/pokedex/${pokemon.name}`}>
                 <div className="pokemonCard">
                   <img
                     className="pokemonImages"

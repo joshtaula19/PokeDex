@@ -9,7 +9,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />} >
       <Route index element={<Home />} />
       <Route path="pokedex" element={<PokedexList />} />
-      <Route path="pokedex/:code" element={<PokemonData />} />
+      <Route path="pokedex/:name" element={<PokemonData />} />
     </Route>
   )
 )

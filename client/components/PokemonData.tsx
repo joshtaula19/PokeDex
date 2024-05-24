@@ -2,10 +2,10 @@ import { useParams } from 'react-router-dom'
 import GenerationData from '../../data/data'
 
 const PokemonData = () => {
-  const { code } = useParams()
+  const { name } = useParams()
   // I've set up the basic params for this but you can change it if you want to
   // If your confused just let me know ill help :))
-  const pokemon = GenerationData.find((pokemon) => pokemon.code === code)
+  const pokemon = GenerationData.find((pokemon) => pokemon.name === name)
 
   if (!pokemon) {
     return <div>Pokemon not found</div>
