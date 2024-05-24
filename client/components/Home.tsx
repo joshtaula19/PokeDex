@@ -7,7 +7,7 @@ function Home() {
       <div className="card">
         <div className="content">
           <h1>
-            <span className="poki">Poki</span>
+            <span className="poki">Poké</span>
             <span className="dex">dex</span>
           </h1>
           <h2>By the Stack Smashers</h2>
