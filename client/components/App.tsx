@@ -1,10 +1,11 @@
 import Home from './Home'
+import { Outlet } from 'react-router-dom'
 // import PokedexList from './PokedexList'
 
 function App() {
   return (
     <div>
-      <Home />
+      <Outlet />
     </div>
   )
 }
