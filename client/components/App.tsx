@@ -1,4 +1,4 @@
-import Home from './Home'
+// import Home from './Home'
 import { Outlet } from 'react-router-dom'
 // import PokedexList from './PokedexList'
 
