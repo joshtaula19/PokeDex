@@ -14,7 +14,7 @@ const PokemonData = () => {
   return (
     <div>
       {/* I have added tag to the data below just so that I could be able to see the page content and ensure routing was working correctly. Feel free to change to use tags that are linked to CSS  */}
-      <img src={pokemon.image} alt={pokemon.name} />
+      <img src={`/images/${pokemon.image}`} alt={pokemon.name} />
       <h2>{pokemon.name}</h2>
       <p>{pokemon.type}</p>
       <p>Abilities: {pokemon.abilities.join(', ')}</p>
