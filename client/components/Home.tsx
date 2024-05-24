@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../Home.css'
 
 function Home() {
@@ -12,7 +13,9 @@ function Home() {
           <h2>By the Stack Smashers</h2>
 
           {/* The button below should take the user who clicks it to the PokedexList.tsx component*/}
-          <button className="pokemonButton">Pokemon Database</button>
+          <Link to="/pokedex">
+            <button className="pokemonButton">Pokemon Database</button>
+          </Link>
         </div>
         <div className="imageBox">
           <img
