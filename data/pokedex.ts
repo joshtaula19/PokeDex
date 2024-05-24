@@ -1,9 +1,9 @@
-interface Pokemon {
+export interface Pokemon {
     code: string;
     name: string;
   }
   
-  interface Generation {
+  export interface Generation {
     image: string;
     pokemons: Pokemon[];
   }
@@ -56,3 +56,6 @@ interface Pokemon {
         ]
     }
 }
+
+export default data
+
