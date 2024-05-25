@@ -3,9 +3,9 @@ import GenerationData, { Generation } from '../../data/data'
 import '../PokedexList.css'
 import {useState} from 'react'
 
-
+// Functions below control the filtering for the drop down menu/buttons :)) //
 const PokedexList = () => {
-  const [filteredPokemon, setFilteredPokemon] = useState<Generation[]>([])
+  const [filteredPokemon, setFilteredPokemon] = useState<Generation[]>(GenerationData)
 
   const filterPokemon = (type: string) => {
     if (type === "All") {
@@ -32,6 +32,10 @@ const PokedexList = () => {
     <div className="listMain">
       <div className="listHeader">
         <h3>Select Pokemon to view details!</h3>
+    {/* This button should take you back to the home component */}
+        <Link to="/">
+          <button className="homeButton">Home</button>
+        </Link>
         <div className="dropdown">
           <button className="dropbtn">Types of Pokémon</button>
           <div className="dropdown-content">
@@ -50,10 +54,7 @@ const PokedexList = () => {
             <button className="typeButton" onClick={() => filterPokemon('Grass')}>Grass</button>
           </div>
         </div>
-        {/* This button should take you back to the home component */}
-        <Link to="/">
-          <button className="homeButton">Home</button>
-        </Link>
+
       </div>
       <div className="cardsContainer">
         {filteredPokemon.map((pokemon) => {
