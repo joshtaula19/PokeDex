@@ -1,5 +1,4 @@
-interface Generation {
-  key: number
+export interface Generation {
   code: string
   name: string
   type: string[]
@@ -92,7 +91,7 @@ const GenerationData = [
     image: '../../images/poliwag.jpg',
   },
   {
-    code: 'CH',
+    code: 'CM',
     name: 'Charmander',
     type: ['Fire'],
     abilities: ['Blaze', 'Solar Power'],
@@ -196,7 +195,7 @@ const GenerationData = [
     image: '../../images/ivysaur.jpg',
   },
   {
-    code: 'BA',
+    code: 'BY',
     name: 'Bayleef',
     type: ['Grass'],
     abilities: ['Overgrow', 'Leaf Guard'],
@@ -204,7 +203,7 @@ const GenerationData = [
     image: '../../images/bayleef.jpg',
   },
   {
-    code: 'MC',
+    code: 'MR',
     name: 'Maractus',
     type: ['Grass'],
     abilities: ['Water Absorb', 'Chlorophyll'],
@@ -292,7 +291,7 @@ const GenerationData = [
     image: '../../images/jolteon.jpg',
   },
   {
-    code: 'MC',
+    code: 'MG',
     name: 'Magnezone',
     type: ['Electric', 'Steel'],
     abilities: ['Magnet Pull', 'Sturdy'],
@@ -454,7 +453,7 @@ const GenerationData = [
     image: '../../images/makuhita.jpg',
   },
   {
-    code: 'HA',
+    code: 'HY',
     name: 'Hariyama',
     type: ['Fighting'],
     abilities: ['Thick Fat', 'Guts'],
@@ -478,15 +477,7 @@ const GenerationData = [
     image: '../../images/lucario.jpg',
   },
   {
-    code: 'MAK',
-    name: 'Makuhita',
-    type: ['Fighting'],
-    abilities: ['Thick Fat', 'Guts'],
-    evolutions: ['Hariyama'],
-    image: '../../images/makuhita.jpg',
-  },
-  {
-    code: 'ME',
+    code: 'MD',
     name: 'Meditite',
     type: ['Fighting', 'Psychic'],
     abilities: ['Pure Power', 'Telepathy'],
@@ -503,7 +494,7 @@ const GenerationData = [
   },
 
   {
-    code: 'PI',
+    code: 'PD',
     name: 'Pidgey',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -511,7 +502,7 @@ const GenerationData = [
     image: '../../images/pidgey.jpg',
   },
   {
-    code: 'PO',
+    code: 'PID',
     name: 'Pidgeotto',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -519,7 +510,7 @@ const GenerationData = [
     image: '../../images/pidgeotto.jpg',
   },
   {
-    code: 'PG',
+    code: 'PDG',
     name: 'Pidgeot',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -535,7 +526,7 @@ const GenerationData = [
     image: '../../images/spearow.jpg',
   },
   {
-    code: 'FE',
+    code: 'FR',
     name: 'Fearow',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Sniper'],
@@ -543,15 +534,7 @@ const GenerationData = [
     image: '../../images/fearow.jpg',
   },
   {
-    code: 'ZU',
-    name: 'Zubat',
-    type: ['Poison', 'Flying'],
-    abilities: ['Inner Focus', 'Infiltrator'],
-    evolutions: ['Golbat', 'Crobat'],
-    image: '../../images/zubat.jpg',
-  },
-  {
-    code: 'GO',
+    code: 'GB',
     name: 'Golbat',
     type: ['Poison', 'Flying'],
     abilities: ['Inner Focus', 'Infiltrator'],
@@ -559,7 +542,7 @@ const GenerationData = [
     image: '../../images/golbat.jpg',
   },
   {
-    code: 'CR',
+    code: 'CO',
     name: 'Crobat',
     type: ['Poison', 'Flying'],
     abilities: ['Inner Focus', 'Infiltrator'],
@@ -640,7 +623,7 @@ const GenerationData = [
     image: '../../images/nidorino.jpg',
   },
   {
-    code: 'NK',
+    code: 'NDO',
     name: 'Nidoking',
     type: ['Poison', 'Ground'],
     abilities: ['Poison Point', 'Rivalry', 'Sheer Force'],
@@ -655,15 +638,6 @@ const GenerationData = [
     evolutions: ['Golbat', 'Crobat'],
     image: '../../images/zubat.jpg',
   },
-  {
-    code: 'GO',
-    name: 'Golbat',
-    type: ['Poison', 'Flying'],
-    abilities: ['Inner Focus', 'Infiltrator'],
-    evolutions: ['Crobat'],
-    image: '../../images/golbat.jpg',
-  },
-
   {
     code: 'SD',
     name: 'Sandshrew',
@@ -689,14 +663,6 @@ const GenerationData = [
     image: '../../images/nidoqueen.jpg',
   },
   {
-    code: 'NK',
-    name: 'Nidoking',
-    type: ['Poison', 'Ground'],
-    abilities: ['Poison Point', 'Rivalry', 'Sheer Force'],
-    evolutions: [],
-    image: '../../images/nidoking.jpg',
-  },
-  {
     code: 'DG',
     name: 'Diglett',
     type: ['Ground'],
@@ -719,22 +685,6 @@ const GenerationData = [
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
     evolutions: [],
     image: '../../images/golem.jpg',
-  },
-  {
-    code: 'ON',
-    name: 'Onix',
-    type: ['Rock', 'Ground'],
-    abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
-    evolutions: ['Steelix'],
-    image: '../../images/onix.jpg',
-  },
-  {
-    code: 'ST',
-    name: 'Steelix',
-    type: ['Steel', 'Ground'],
-    abilities: ['Rock Head', 'Sturdy', 'Sand Force'],
-    evolutions: [],
-    image: '../../images/steelix.jpg',
   },
   {
     code: 'CS',
@@ -762,20 +712,12 @@ const GenerationData = [
     image: '../../images/geodude.jpg',
   },
   {
-    code: 'GR',
+    code: 'GV',
     name: 'Graveler',
     type: ['Rock', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
     evolutions: ['Golem'],
     image: '../../images/graveler.jpg',
-  },
-  {
-    code: 'GO',
-    name: 'Golem',
-    type: ['Rock', 'Ground'],
-    abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
-    evolutions: [],
-    image: '../../images/golem.jpg',
   },
   {
     code: 'ON',
@@ -784,14 +726,6 @@ const GenerationData = [
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
     evolutions: ['Steelix'],
     image: '../../images/onix.jpg',
-  },
-  {
-    code: 'ST',
-    name: 'Steelix',
-    type: ['Steel', 'Ground'],
-    abilities: ['Rock Head', 'Sturdy', 'Sand Force'],
-    evolutions: [],
-    image: '../../images/steelix.jpg',
   },
   {
     code: 'LE',
@@ -859,7 +793,7 @@ const GenerationData = [
     image: '../../images/metapod.jpg',
   },
   {
-    code: 'BU',
+    code: 'BF',
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
     abilities: ['Compound Eyes', 'Tinted Lens'],
@@ -907,7 +841,7 @@ const GenerationData = [
     image: '../../images/parasect.jpg',
   },
   {
-    code: 'VE',
+    code: 'VN',
     name: 'Venonat',
     type: ['Bug', 'Poison'],
     abilities: ['Compound Eyes', 'Tinted Lens', 'Run Away'],
@@ -940,7 +874,7 @@ const GenerationData = [
     image: '../../images/haunter.jpg',
   },
   {
-    code: 'GE',
+    code: 'GG',
     name: 'Gengar',
     type: ['Ghost', 'Poison'],
     abilities: ['Cursed Body'],
@@ -1021,7 +955,7 @@ const GenerationData = [
     image: '../../images/skarmory.jpg',
   },
   {
-    code: 'ST',
+    code: 'SE',
     name: 'Steelix',
     type: ['Steel', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Force'],
@@ -1045,7 +979,7 @@ const GenerationData = [
     image: '../../images/scizor.jpg',
   },
   {
-    code: 'SK',
+    code: 'SR',
     name: 'Skorupi',
     type: ['Poison', 'Bug'],
     abilities: ['Battle Armor', 'Sniper', 'Keen Eye'],
@@ -1053,7 +987,7 @@ const GenerationData = [
     image: '../../images/skorupi.jpg',
   },
   {
-    code: 'DR',
+    code: 'DP',
     name: 'Drapion',
     type: ['Poison', 'Dark'],
     abilities: ['Battle Armor', 'Sniper', 'Keen Eye'],

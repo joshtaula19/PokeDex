@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import GenerationData from '../../data/data'
+import '../PokedexList.css'
 
 const PokemonData = () => {
   const { name } = useParams()
@@ -14,7 +15,7 @@ const PokemonData = () => {
   return (
     <div>
       {/* I have added tag to the data below just so that I could be able to see the page content and ensure routing was working correctly. Feel free to change to use tags that are linked to CSS  */}
-      <img
+      <img className="pokeIMG"
         src={'/images/' + pokemon.name.toLowerCase() + '.jpg'}
         alt={pokemon.name}
       />
