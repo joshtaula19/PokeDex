@@ -11,7 +11,7 @@ export type GenerationData = Record<string, Generation>
 
 const GenerationData = [
   {
-    code: 'SQ',
+    code: 'PKMN007',
     name: 'Squirtle',
     type: ['Water'],
     abilities: ['Torrent', 'Rain Dish'],
@@ -51,7 +51,7 @@ const GenerationData = [
     image: '../../images/frogadier.jpg',
   },
   {
-    code: 'WT',
+    code: 'PKMN008',
     name: 'Wartortle',
     type: ['Water'],
     abilities: ['Torrent', 'Rain Dish'],
@@ -59,7 +59,7 @@ const GenerationData = [
     image: '../../images/wartortle.jpg',
   },
   {
-    code: 'BL',
+    code: 'PKMN009',
     name: 'Blastoise',
     type: ['Water'],
     abilities: ['Torrent', 'Rain Dish'],
@@ -75,7 +75,7 @@ const GenerationData = [
     image: '../../images/feraligatr.jpg',
   },
   {
-    code: 'GR',
+    code: 'GRN',
     name: 'Greninja',
     type: ['Water', 'Dark'],
     abilities: ['Torrent', 'Protean'],
@@ -91,7 +91,7 @@ const GenerationData = [
     image: '../../images/poliwag.jpg',
   },
   {
-    code: 'CH',
+    code: 'PKMN004',
     name: 'Charmander',
     type: ['Fire'],
     abilities: ['Blaze', 'Solar Power'],
@@ -99,7 +99,7 @@ const GenerationData = [
     image: '../../images/charmander.jpg',
   },
   {
-    code: 'CL',
+    code: 'PKMN005',
     name: 'Charmeleon',
     type: ['Fire'],
     abilities: ['Blaze', 'Solar Power'],
@@ -107,7 +107,7 @@ const GenerationData = [
     image: '../../images/charmeleon.jpg',
   },
   {
-    code: 'CR',
+    code: 'PKMN006',
     name: 'Charizard',
     type: ['Fire', 'Flying'],
     abilities: ['Blaze', 'Solar Power'],
@@ -171,7 +171,7 @@ const GenerationData = [
     image: '../../images/vulpix.jpg',
   },
   {
-    code: 'BU',
+    code: 'PKMN001',
     name: 'Bulbasaur',
     type: ['Grass', 'Poison'],
     abilities: ['Overgrow', 'Chlorophyll'],
@@ -187,7 +187,7 @@ const GenerationData = [
     image: '../../images/chikorita.jpg',
   },
   {
-    code: 'IV',
+    code: 'PKMN002',
     name: 'Ivysaur',
     type: ['Grass', 'Poison'],
     abilities: ['Overgrow', 'Chlorophyll'],
@@ -219,7 +219,7 @@ const GenerationData = [
     image: '../../images/treecko.jpg',
   },
   {
-    code: 'VE',
+    code: 'PKMN003',
     name: 'Venusaur',
     type: ['Grass', 'Poison'],
     abilities: ['Overgrow', 'Chlorophyll'],
@@ -227,7 +227,7 @@ const GenerationData = [
     image: '../../images/venusaur.jpg',
   },
   {
-    code: 'ME',
+    code: 'MEG',
     name: 'Meganium',
     type: ['Grass'],
     abilities: ['Overgrow', 'Leaf Guard'],
@@ -331,7 +331,7 @@ const GenerationData = [
     image: '../../images/magneton.jpg',
   },
   {
-    code: 'RS',
+    code: 'PKMN019',
     name: 'Rattata',
     type: ['Normal'],
     abilities: ['Run Away', 'Guts'],
@@ -339,7 +339,7 @@ const GenerationData = [
     image: '../../images/rattata.jpg',
   },
   {
-    code: 'RC',
+    code: 'PKMN020',
     name: 'Raticate',
     type: ['Normal'],
     abilities: ['Run Away', 'Guts'],
@@ -396,7 +396,7 @@ const GenerationData = [
     image: '../../images/eevee.jpg',
   },
   {
-    code: 'ST',
+    code: 'STNT',
     name: 'Snorunt',
     type: ['Ice'],
     abilities: ['Inner Focus', 'Ice Body'],
@@ -502,7 +502,7 @@ const GenerationData = [
   },
 
   {
-    code: 'PI',
+    code: 'PKMN016',
     name: 'Pidgey',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -510,7 +510,7 @@ const GenerationData = [
     image: '../../images/pidgey.jpg',
   },
   {
-    code: 'PO',
+    code: 'PKMN017',
     name: 'Pidgeotto',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -518,7 +518,7 @@ const GenerationData = [
     image: '../../images/pidgeotto.jpg',
   },
   {
-    code: 'PG',
+    code: 'PKMN018',
     name: 'Pidgeot',
     type: ['Normal', 'Flying'],
     abilities: ['Keen Eye', 'Tangled Feet', 'Big Pecks'],
@@ -550,7 +550,7 @@ const GenerationData = [
     image: '../../images/zubat.jpg',
   },
   {
-    code: 'GO',
+    code: 'GOL',
     name: 'Golbat',
     type: ['Poison', 'Flying'],
     abilities: ['Inner Focus', 'Infiltrator'],
@@ -599,12 +599,12 @@ const GenerationData = [
     image: '../../images/arbok.jpg',
   },
   {
-    code: 'NK',
-    name: 'Nidoran',
-    type: ['Poison'],
-    abilities: ['Poison Point', 'Rivalry', 'Hustle'],
-    evolutions: ['Nidorina', 'Nidoqueen'],
-    image: '../../images/nidoran-f.jpg',
+    code: 'TPE',
+    name: 'Toxapex',
+    type: ['Poison', 'Water'],
+    abilities: ['Merciless', 'Limber', 'Regenerator'],
+    evolutions: ['Mareanie (Level up with high friendship during the day)'],
+    image: 'Toxapex Image URL',
   },
   {
     code: 'ND',
@@ -623,12 +623,12 @@ const GenerationData = [
     image: '../../images/nidoqueen.jpg',
   },
   {
-    code: 'NM',
-    name: 'Nidoran',
-    type: ['Poison'],
-    abilities: ['Poison Point', 'Rivalry', 'Hustle'],
-    evolutions: ['Nidorino', 'Nidoking'],
-    image: '../../images/nidoran-m.jpg',
+    code: 'SZE',
+    name: 'Salazzle',
+    type: ['Poison', 'Fire'],
+    abilities: ['Corrosion', 'Oblivious (Hidden Ability)'],
+    evolutions: ['Salandit (Level 33)'],
+    image: 'Salazzle Image URL',
   },
   {
     code: 'NN',
@@ -688,12 +688,12 @@ const GenerationData = [
     image: '../../images/nidoqueen.jpg',
   },
   {
-    code: 'NK',
-    name: 'Nidoking',
-    type: ['Poison', 'Ground'],
-    abilities: ['Poison Point', 'Rivalry', 'Sheer Force'],
-    evolutions: [],
-    image: '../../images/nidoking.jpg',
+    code: 'NTE',
+    name: 'Ninetales',
+    type: ['Fire'],
+    abilities: ['Flash Fire', 'Drought', 'Snow Warning (Hidden Ability)'],
+    evolutions: ['Vulpix (Fire Stone)'],
+    image: '../../images/ninetales.jpg',
   },
   {
     code: 'DG',
@@ -712,7 +712,7 @@ const GenerationData = [
     image: '../../images/dugtrio.jpg',
   },
   {
-    code: 'GO',
+    code: 'GOLM',
     name: 'Golem',
     type: ['Rock', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
@@ -720,7 +720,7 @@ const GenerationData = [
     image: '../../images/golem.jpg',
   },
   {
-    code: 'ON',
+    code: 'ONX',
     name: 'Onix',
     type: ['Rock', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
@@ -753,7 +753,7 @@ const GenerationData = [
   },
 
   {
-    code: 'GE',
+    code: 'GEOD',
     name: 'Geodude',
     type: ['Rock', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
@@ -769,7 +769,7 @@ const GenerationData = [
     image: '../../images/graveler.jpg',
   },
   {
-    code: 'GO',
+    code: 'GOM',
     name: 'Golem',
     type: ['Rock', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Veil'],
@@ -842,7 +842,7 @@ const GenerationData = [
   },
 
   {
-    code: 'CP',
+    code: 'PKMN010',
     name: 'Caterpie',
     type: ['Bug'],
     abilities: ['Shield Dust', 'Run Away'],
@@ -850,7 +850,7 @@ const GenerationData = [
     image: '../../images/caterpie.jpg',
   },
   {
-    code: 'MT',
+    code: 'PKMN011',
     name: 'Metapod',
     type: ['Bug'],
     abilities: ['Shed Skin'],
@@ -858,7 +858,7 @@ const GenerationData = [
     image: '../../images/metapod.jpg',
   },
   {
-    code: 'BU',
+    code: 'PKMN012',
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
     abilities: ['Compound Eyes', 'Tinted Lens'],
@@ -866,7 +866,7 @@ const GenerationData = [
     image: '../../images/butterfree.jpg',
   },
   {
-    code: 'WE',
+    code: 'PKMN013',
     name: 'Weedle',
     type: ['Bug', 'Poison'],
     abilities: ['Shield Dust', 'Run Away'],
@@ -874,7 +874,7 @@ const GenerationData = [
     image: '../../images/weedle.jpg',
   },
   {
-    code: 'KA',
+    code: 'PKMN014',
     name: 'Kakuna',
     type: ['Bug', 'Poison'],
     abilities: ['Shed Skin'],
@@ -882,7 +882,7 @@ const GenerationData = [
     image: '../../images/kakuna.jpg',
   },
   {
-    code: 'BD',
+    code: 'PKMN015',
     name: 'Beedrill',
     type: ['Bug', 'Poison'],
     abilities: ['Swarm', 'Sniper'],
@@ -1020,7 +1020,7 @@ const GenerationData = [
     image: '../../images/skarmory.jpg',
   },
   {
-    code: 'ST',
+    code: 'STE',
     name: 'Steelix',
     type: ['Steel', 'Ground'],
     abilities: ['Rock Head', 'Sturdy', 'Sand Force'],

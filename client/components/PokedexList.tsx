@@ -3,12 +3,6 @@ import GenerationData from '../../data/data'
 import '../PokedexList.css'
 
 const PokedexList = () => {
-  // const [Visible, setVisible] = useState(false)
-
-  // const handleClick = () => {
-  //   setVisible(true)
-  // }
-
   return (
     <div className="listMain">
       <div className="listHeader">
