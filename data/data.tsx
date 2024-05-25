@@ -1,4 +1,5 @@
 interface Generation {
+  key: number
   code: string
   name: string
   type: string[]
