@@ -600,7 +600,7 @@ const GenerationData = [
   },
   {
     code: 'NK',
-    name: 'Nidoran',
+    name: 'Nidoran-f',
     type: ['Poison'],
     abilities: ['Poison Point', 'Rivalry', 'Hustle'],
     evolutions: ['Nidorina', 'Nidoqueen'],
@@ -624,7 +624,7 @@ const GenerationData = [
   },
   {
     code: 'NM',
-    name: 'Nidoran',
+    name: 'Nidoran-m',
     type: ['Poison'],
     abilities: ['Poison Point', 'Rivalry', 'Hustle'],
     evolutions: ['Nidorino', 'Nidoking'],
