@@ -58,7 +58,7 @@ const PokemonData = () => {
             {' '}
             <h1>{pokemon.name}</h1>
             <h2>Type:</h2>
-            <h3>{pokemon.type}</h3>
+            <h3>{pokemon.type.join(', ')}</h3>
             <h2>Abilities:</h2>
             <h3>{pokemon.abilities.join(', ')}</h3>
             <h2>Evolutions:</h2>

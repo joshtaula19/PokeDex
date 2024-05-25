@@ -315,14 +315,6 @@ const GenerationData = [
     image: '../../images/electrode.jpg',
   },
   {
-    code: 'MI',
-    name: 'Magnezone',
-    type: ['Electric', 'Steel'],
-    abilities: ['Magnet Pull', 'Sturdy'],
-    evolutions: [],
-    image: '../../images/magnezone.jpg',
-  },
-  {
     code: 'MS',
     name: 'Magneton',
     type: ['Electric', 'Steel'],
@@ -598,14 +590,7 @@ const GenerationData = [
     evolutions: ['Nidoqueen'],
     image: '../../images/nidorina.jpg',
   },
-  {
-    code: 'NQ',
-    name: 'Nidoqueen',
-    type: ['Poison', 'Ground'],
-    abilities: ['Poison Point', 'Rivalry', 'Sheer Force'],
-    evolutions: [],
-    image: '../../images/nidoqueen.jpg',
-  },
+
   {
     code: 'NM',
     name: 'Nidoran-m',
