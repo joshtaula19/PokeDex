@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 import '../PokemonData.css'
 
 const PokemonData = () => {
-  const { code } = useParams()
+  const { name } = useParams()
   const [isLoading, setIsLoading] = useState(true)
   // I've set up the basic params for this but you can change it if you want to
   // If your confused just let me know ill help :))
-  const pokemon = GenerationData.find((pokemon) => pokemon.code === code)
+  const pokemon = GenerationData.find((pokemon) => pokemon.name === name)
 
   setTimeout(() => {
     setIsLoading(false)
